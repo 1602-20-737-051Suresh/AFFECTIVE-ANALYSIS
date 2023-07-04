@@ -1,0 +1,11 @@
+"Good afternoon, everyone. My name is Suresh Kumar, and I was responsible for the front-end development of the affective analysis project, which utilizes affective analysis to recognize emotions based on facial expressions and voice tones.
+
+As a front-end developer, my role was to translate the design concepts into a functional website, using a combination of HTML, CSS.
+
+ Throughout the project, I focused on creating a seamless user experience and optimizing the website for performance.
+
+Throughout the project, I focused on creating a seamless user experience that guides the user through the process of recording audio , and recording video using live cam and simultaneously both audio and video.
+
+One of the key challenges of this project was to display the analysis results in a meaningful way. To overcome this challenge, I collaborated with the back-end team to create a visual representation of the emotions detected
+
+ I'm excited to share our progress with you today and look forward to hearing your feedback."Thank you for your attention..

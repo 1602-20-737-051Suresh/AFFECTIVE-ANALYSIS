@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+
+      <div class="video"></div>
+        <ul
+            navigator.mediaDevices.getUserMedia({video: true}).then(function(stream) {
+                var videoElement = document.getElementById('videoElement');
+                videoElement.srcObject = stream;
+              });
+
+        >
+    </div> 
+</body>
