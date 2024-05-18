@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> AFFECTIVE ANALYSIS-HOME</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">AFFECTIVE ANALYSIS</h2>
+            </div>  
+            <div class="menu">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+
+                </ul>
+            </div>  
+        </div>
+        <div class="content">
+            <h1> <span>Description:</span></h1>
+            <p class="par"><br>AFFECTIVE ANALYSIS is
+                a relatively new discipline that aims to include text inputs, <br>   <br>as well as sound
+                and video.This field has been rising with the development of social networks<br>   <br>
+                that gave researchers access to a vast amount of data.Recent studies have been
+                exploring<br>   <br> potential metrics to measure the coherence between emotions from the
+                different channels.</p>
+            <h2><span>Information:</span></h2>
+            <p class="par"><br>In this project two different inputs audio or video could be given as input.
+                <br>   <br>
+            If audio was to be given as input then an local mp3 file is to be uploaded.
+                <br>   <br>
+            The system recognizes different emotions that are observed in the audio.</p>
+            
+        <div class="form">
+             <h1>Let's detect "Emotion"</h1>
+             <br>
+             <br>
+            <form>
+                <p> <br>AUDIO ANALYSIS<br></p>
+                <br>
+                <button class="cn">Audio</button>
+                <br>
+                <!--<p> <br>Click on the "Choose file"  to upload AUDIO file:<br></p>
+                <input type="file" id ="myFile" name="filename">
+                <br>-->
+            </form>
+            <form>
+                <p> <br>VIDEO ANALYSIS<br></p>
+                <br>
+                <button class="cn">Live camera</button>
+            </form>
+            <form action="#">
+                <p> <br>AUDIO AND VIDEO ANALYSIS<br></p>
+                <br>
+                <button class="cn"><a href = "/main"></a>ANALYSIS</button>
+            </form>
+                </div>
+              </div>
+        </div>
+    </div>
+</body>
+</html>

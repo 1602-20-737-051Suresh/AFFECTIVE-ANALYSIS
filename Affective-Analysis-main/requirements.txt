@@ -1,0 +1,7 @@
+tensorflow
+imutils
+pandas
+pyaudio
+librosa
+opencv-python
+dlib
